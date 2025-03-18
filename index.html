@@ -1,20 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P1</title>
+    <title>CV - Merinda Riski Puspita Sari</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>curriculum vitae</h1>
-    <h2> Data Pribadi</h2>
-    <ol>
-        <li>Nama : Merinda Riski Puspita Sari</li>
-    </ol>
+    <header>
+        <div class="header-container">
+            <img src="../hjb.jpg" alt="Foto Profil" class="profil-img">
+            <div>
+                <h1><strong>Merinda Riski Puspita Sari</strong></h1>
+                <p><strong>Ilmu Komputer</strong></p>
+            </div>
+        </div>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+    
+    
+    <main class="container">
+        <section id="left-column">
+            <section id="personal-data">
+                <h2>Data Pribadi</h2>
+                <ul>
+                    <li><span class="label">Tempat, Tanggal Lahir</span> <span class="colon">:</span> <span class="value">Jayapura, 17 Agustus 2005</span></li>
+                    <li><span class="label">Alamat</span> <span class="colon">:</span> <span class="value">Jl. Panjaitan, Kendari, Sulawesi Tenggara</span></li>
+                    <li><span class="label">Jenis Kelamin</span> <span class="colon">:</span> <span class="value">Perempuan</span></li>
+                    <li><span class="label">Agama</span> <span class="colon">:</span> <span class="value">Islam</span></li>
+                    <li><span class="label">Email</span> <span class="colon">:</span> <span class="value"><a href="mailto:meririski17@gmail.com">meririski17@gmail.com</a></span></li>
 
-    <h2> Portofolio </h2>
-    <li>Nothing</li>
-    <li>Nothing</li>
-   
+                </ul>
+            </section>            
+            <section id="education">
+                <h2>Pendidikan</h2>
+                <ul>
+                    <li>SDN 2 Katobu (2011 – 2017)</li>
+                    <li>SMPN 2 Raha (2017 – 2020)</li>
+                    <li>SMAN 1 Raha (2021 – 2023)</li>
+                    <li>Universitas Haluoleo (Ilmu Komputer) (2023 - sekarang)</li>
+                </ul>
+            </section>
+        </section>
+        
+        <section id="right-column">
+            <section id="experience">
+                <h2>Pengalaman</h2>
+                <ul>
+                    <li>Pengembangan Sistem Manajemen Stok (Tugas Mata Kuliah)</li>
+                </ul>
+            </section>
+            <section id="organizations">
+                <h2>Organisasi dan Kegiatan</h2>
+                <ul>
+                    <li>Tim Kegiatan Sosial Kampus – Mengorganisir kegiatan bakti sosial dan penggalangan dana untuk masyarakat yang membutuhkan.</li>
+                    <li>Forum Literasi Digital – Berkontribusi dalam penyuluhan keamanan dan pemanfaatan teknologi bagi masyarakat luas.</li>
+                </ul>
+            </section>
+            <section id="skills">
+                <h2>Keahlian</h2>
+                <ul>
+                    <li>Database: MySQL</li>
+                    <li>Pengembangan Web: HTML, CSS, JavaScript</li>
+                    <li>Analisis & Desain Perangkat Lunak</li>
+                    <li>Manajemen Basis Data</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Merinda Riski Puspita Sari</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

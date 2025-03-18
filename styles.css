@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../body2.jpg') no-repeat center center fixed; 
+    background-size: cover; /* Menyesuaikan gambar agar memenuhi layar */
+    color: #333;
+}
+
+header {
+    background: url('../header.jpg') no-repeat center center; 
+    background-size: cover; /* Menyesuaikan gambar agar memenuhi header */
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Bisa disesuaikan agar tidak terlalu besar */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Jarak antara foto dan teks */
+}
+
+h1 {
+    font-size: 22px; /* Ukuran font lebih kecil */
+    margin: 0;
+    color: rgb(209, 63, 112); /* Ganti dengan warna yang diinginkan */
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    color: rgb(209, 63, 112); /* Ganti dengan warna yang diinginkan */
+}
+
+button {
+    padding: 8px 12px; /* Perkecil tombol */
+    font-size: 14px;
+}
+
+
+button {
+    background: #f3b0b0;
+    color: #f1247a;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+#left-column, #right-column {
+    flex: 1;
+    background: rgb(224, 204, 216);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #f153a2;
+}
+
+footer {
+    text-align: center;
+    background: #fa93ba;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+#personal-data ul {
+    list-style: none;
+    padding: 0;
+}
+
+#personal-data li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#personal-data .label {
+    flex: 1;
+    font-weight: bold;
+}
+
+#personal-data .colon {
+    flex: 0;
+}
+
+#personal-data .value {
+    flex: 2;
+    text-align: left;
+}
+
+.profil-img {
+    width: 90px; /* Ukuran lebih kecil */
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
