@@ -75,7 +75,11 @@ button {
 }
 
 h2 {
-    color: #f153a2;
+    background-color: #f9c5d1; /* Warna latar belakang */
+    color: #d63384; /* Warna teks */
+    padding: 5px 10px; /* Ruang di dalam highlight */
+    border-radius: 5px; /* Membuat sudut lebih halus */
+    display: inline-block; /* Agar latar belakang hanya selebar teks */
 }
 
 footer {
