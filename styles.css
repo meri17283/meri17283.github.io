@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background: url('../body2.jpg') no-repeat center center fixed; 
@@ -75,8 +75,8 @@ button {
 }
 
 h2 {
-    background-color: #f9c5d1; /* Warna latar belakang */
-    color: #d63384; /* Warna teks */
+    background-color: #f0b7c4; /* Warna latar belakang */
+    color: #b31564; /* Warna teks */
     padding: 5px 10px; /* Ruang di dalam highlight */
     border-radius: 5px; /* Membuat sudut lebih halus */
     display: inline-block; /* Agar latar belakang hanya selebar teks */
@@ -84,7 +84,7 @@ h2 {
 
 footer {
     text-align: center;
-    background: #fa93ba;
+    background: #fab2ce;
     color: white;
     padding: 10px;
     margin-top: 20px;
